@@ -4800,11 +4800,11 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 13500000}
   - component: {fileID: 5400000}
-  - component: {fileID: -9216799603480554729}
   - component: {fileID: -2987504828849602924}
   - component: {fileID: 1204436654686738525}
   - component: {fileID: 1966334655306223674}
   - component: {fileID: -322934276269719370}
+  - component: {fileID: 7757753651386183837}
   m_Layer: 0
   m_Name: EnemyShip
   m_TagString: Enemy
@@ -4878,19 +4878,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-9216799603480554729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df58a3ec4735cdd4b8e11c2c9449b5b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FlySpeed: -5
 --- !u!114 &-2987504828849602924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5044,6 +5031,19 @@ MonoBehaviour:
   enemyExplosion: {fileID: 100012, guid: 160925a6fe2664f2a978566b819f0af0, type: 3}
   playerExplosion: {fileID: 100008, guid: 3455fe69f7ddc4604b95bf9b0a1e88d7, type: 3}
   scoreValue: 10
+--- !u!114 &7757753651386183837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df58a3ec4735cdd4b8e11c2c9449b5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlySpeed: -5
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
